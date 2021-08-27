@@ -1,0 +1,52 @@
+.home-container{
+    background: url('../../../assets/image/bg2.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+.home-container input{
+        height: 50px;
+        width: 340px;
+        margin: 0px 0px;
+        border: none;
+        outline: none;
+        background: rgba(0, 0, 0, 0.3);
+        color: whitesmoke;
+        padding: 20px;
+        border-radius: 5px;
+}
+.home-container .btn-custom {
+    width: 150px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: whitesmoke;
+    margin: 0px 5px;
+    padding: 12px 5px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 200;
+    font-size: 18px;
+    border: none;
+}
+::-webkit-input-placeholder{
+    color: rgb(197, 197, 197);
+}
+
+@media only screen and (max-width:768px){
+    .home-container input{
+       
+        width: 240px;
+        padding: 20px;
+        
+}
+.home-container .btn-custom {
+    width: 70px;
+    margin: 0px 5px;
+    padding: 12px 10px;
+ 
+}
+    
+}
