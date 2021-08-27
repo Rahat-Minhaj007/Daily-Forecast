@@ -42,6 +42,7 @@ const ForecastData = () => {
                 forecastData?.city?.name &&
 
                 <div className="d-flex justify-content-center">
+                
                     <div className="container row pt-5">
                         {
                             fiveDaysData.map((information) => <ForecastInfo forecastInfo={information} cityData={forecastData.city} key={information?.dt}></ForecastInfo>)
@@ -54,6 +55,7 @@ const ForecastData = () => {
 
             {
                 forecastData?.city?.name && <div className="container pt-5 pb-5">
+                 
                             <ForecastVisual latitude={forecastData?.city?.coord?.lat} longitude={forecastData?.city?.coord?.lon} dependncy={searchInput2}></ForecastVisual>
                 </div>
 

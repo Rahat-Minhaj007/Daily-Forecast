@@ -1,0 +1,54 @@
+.signIn{
+    background: url('../../assets/image/bg2.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.sign-card{
+    width: 100% !important;
+    max-width: 1000px !important;
+    padding:5rem 2.5rem !important;
+
+    border-radius: 1rem !important;
+    border:1px solid transparent !important;
+
+    backdrop-filter: blur(1rem)!important;
+    box-shadow:  1.3rem 1.3rem 1.3rem rgba(0,0,0,0.5)!important;
+
+    border-top-color: rgba(225,225,225,0.1)!important;
+    border-left-color: rgba(225,225,225,0.1)!important;
+    border-bottom-color: rgba(225,225,225,0.1)!important;
+    border-right-color: rgba(225,225,225,0.1)!important;
+
+
+}
+.cb1{
+    background-color: rgba(225,225,225,0.1)!important;
+}
+.card-num{
+    color:rgba(225,225,225,0.88);
+    font-size:8rem;
+    z-index: -1;
+    position:absolute;
+    top: 0;
+    right: 2.5rem;
+}
+.sign-input input{
+    height: 50px;
+    width:100%;
+    max-width: 340px;
+    margin: 0px 0px;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.3);
+    color: whitesmoke;
+    padding: 20px;
+    border-radius: 5px;
+}
+.signIn-container{
+    margin-top:150px !important;
+}

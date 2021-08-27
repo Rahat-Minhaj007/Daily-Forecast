@@ -36,7 +36,7 @@ const NavBar = () => {
                             <Link className="nav-link me-5 text-dark fw-bold fs-6" to="/fiveDaysForecast">Five Day's Update</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link me-5 text-dark fw-bold fs-6" to="/visual">Forecast Visualization</Link>
+                            <Link className="nav-link me-5 text-dark fw-bold fs-6" to="/signIn">Sign In</Link>
                         </li>
 
 

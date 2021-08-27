@@ -10,6 +10,7 @@ import ForecastData from './components/FiveDaysForecast/ForecastData/ForecastDat
 import ForecastVisual from './components/Visual/ForecastVisual/ForecastVisual';
 import { useEffect, useState } from 'react';
 import Loader from 'react-loader-spinner';
+import SignIn from './components/SignIn/SignIn';
 
 function App() {
   const [spinner, setSpinner] = useState(true)
@@ -36,8 +37,8 @@ function App() {
           <Route exact path="/fiveDaysForecast">
             <ForecastData></ForecastData>
           </Route>
-          <Route exact path="/visual">
-            <ForecastVisual></ForecastVisual>
+          <Route exact path="/signIn">
+            <SignIn></SignIn>
           </Route>
           <Route exact path="/">
             <Home></Home>
